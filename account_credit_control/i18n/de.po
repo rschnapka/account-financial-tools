@@ -77,7 +77,7 @@ msgstr "Konto"
 #. module: account_credit_control
 #: selection:credit.control.policy.level,computation_mode:0
 msgid "Due Date"
-msgstr "FÃ¤lligkeitsdatum"
+msgstr "Fälligkeitsdatum"
 
 #. module: account_credit_control
 #: field:credit.control.communication,current_policy_level:0
@@ -99,17 +99,19 @@ msgstr "Kommunikation zum Mahnwesen"
 #. module: account_credit_control
 #: view:credit.control.emailer:0
 msgid "Send emails for the selected lines"
-msgstr "Sende Emails zu ausgewÃ¤hlten Posten"
+msgstr "Sende Emails zu ausgewählten Posten"
 
 #. module: account_credit_control
 #: help:credit.control.policy,account_ids:0
 msgid "This policy will be active only for the selected accounts"
-msgstr "Diese Vorschrift wird nur fÃ¼r ausgewÃ¤hlte Konten wirksam"
+msgstr "Diese Vorschrift wird nur für ausgewählte Konten wirksam"
 
 #. module: account_credit_control
 #: view:credit.control.line:0
 msgid "These lines are ready to send by email or by letter using the Actions."
-msgstr "Diese Posten sind fÃ¼r den Versand per Email oder Brief Ã¼ber Aktionen bereit."
+msgstr ""
+"Diese Posten stehen für den Versand per Email oder Brief über Aktionen "
+"bereit."
 
 #. module: account_credit_control
 #: view:credit.control.line:0 selection:credit.control.line,state:0
@@ -131,33 +133,44 @@ msgstr "Massenauswahl"
 #: field:account.invoice,credit_policy_id:0
 #: field:res.company,credit_policy_id:0 field:res.partner,credit_policy_id:0
 msgid "Credit Control Policy"
-msgstr "ModalitÃ¤ten zum Mahnwesen"
+msgstr "Modalitäten zum Mahnwesen"
 
 #. module: account_credit_control
 #: model:credit.control.policy.level,custom_mail_text:account_credit_control.3_time_3
 msgid ""
-"Our records indicate that we still have not received the payment of the above mentioned invoice (copy attached) despite our two reminders.\n"
-"        If payment have already been sent, please disregard this notice. If not, please proceed with payment.\n"
-"        If your payment has not been received in the next 5 days, your file will be transfered to our debt collection agency.\n"
+"Our records indicate that we still have not received the payment of the "
+"above mentioned invoice (copy attached) despite our two reminders.\n"
+"        If payment have already been sent, please disregard this notice. If "
+"not, please proceed with payment.\n"
+"        If your payment has not been received in the next 5 days, your file "
+"will be transfered to our debt collection agency.\n"
 "\n"
-"        Should you need us to arrange a payment plan for you, please advise.\n"
+"        Should you need us to arrange a payment plan for you, please "
+"advise.\n"
 "        A customer account statement is enclosed for you convenience.\n"
 "\n"
-"        Thank you in advance for your anticipated cooperation in this matter.\n"
+"        Thank you in advance for your anticipated cooperation in this "
+"matter.\n"
 "\n"
 "        Best regards\n"
 "      "
 msgstr ""
-"Unsere Buchhaltung zeigt an, dass wir, trotz zweier Erinnerungen, immer noch keinen Zahlungseingang zu oben genannter Rechnung erhalten haben (Kopie anhÃ¤ngig).\n"
-"    Sollte die Zahlung zwischenzeitlich erfolgt sein, betrachten Sie dieses Schreiben bitte als nichtig.\n"
-"    Sollte Ihre Zahlung innerhalb der nÃ¤chsten 5 Tage nicht eingehen, behalten wir uns rechtliche Schritte vor.\n"
+"Unsere Buchhaltung zeigt an, dass wir, trotz zweier Erinnerungen, immer noch "
+"keinen Zahlungseingang zu oben genannter Rechnung erhalten haben (Kopie "
+"anhängig).\n"
+"    Sollte die Zahlung zwischenzeitlich erfolgt sein, betrachten Sie dieses "
+"Schreiben bitte als nichtig.\n"
+"    Sollte Ihre Zahlung innerhalb der nächsten 5 Tage nicht eingehen, "
+"behalten wir uns rechtliche Schritte vor.\n"
 "\n"
-"    WÃ¼nschen Sie eine Ratenzahlungsvereinbarung, teilen Sie uns dies bitte mit.\n"
-"    Ein KundenverfÃ¼gung ist zu Ihrer Erleichterung beigefÃ¼gt.\n"
+"    Wünschen Sie eine Ratenzahlungsvereinbarung, teilen Sie uns dies bitte "
+"mit.\n"
+"    Ein Kundenverfügung ist zu Ihrer Erleichterung beigefügt.\n"
 "\n"
-"    Vielen Dank fÃ¼r Ihre angestrebte Zusammenarbeit in dieser Sache.\n"
+"    Vielen Dank für Ihre angestrebte Zusammenarbeit in dieser Sache.\n"
 "\n"
-"    mit freundlichen GrÃ¼ÃŸen\n"
+"    mit freundlichen Grüßen\n"
+" "
 
 #. module: account_credit_control
 #: field:credit.control.line,date_sent:0
@@ -185,36 +198,47 @@ msgstr "Mahnstufe der Mahnregel"
 #: model:credit.control.policy.level,custom_text:account_credit_control.3_time_3
 msgid ""
 "\n"
-"        Our records indicate that we still have not received the payment of the above mentioned invoice despite our two reminders.\n"
-"        If payment have already been sent, please disregard this notice. If not, please proceed with payment.\n"
-"        If your payment has not been received in the next 5 days, your file will be transfered to our debt collection agency.\n"
+"        Our records indicate that we still have not received the payment of "
+"the above mentioned invoice despite our two reminders.\n"
+"        If payment have already been sent, please disregard this notice. If "
+"not, please proceed with payment.\n"
+"        If your payment has not been received in the next 5 days, your file "
+"will be transfered to our debt collection agency.\n"
 "\n"
-"        Should you need us to arrange a payment plan for you, please advise.\n"
+"        Should you need us to arrange a payment plan for you, please "
+"advise.\n"
 "        A customer account statement is enclosed for you convenience.\n"
 "\n"
-"        Thank you in advance for your anticipated cooperation in this matter.\n"
+"        Thank you in advance for your anticipated cooperation in this "
+"matter.\n"
 "\n"
 "        Best regards\n"
 "      "
 msgstr ""
 "\n"
-"    Unsere Buchhaltung zeigt an, dass wir, trotz zweier Erinnerungen, immer noch keinen Zahlungseingang zu oben genannter Rechnung erhalten haben (Kopie anhÃ¤ngig).\n"
-"    Sollte die Zahlung zwischenzeitlich erfolgt sein, betrachten Sie dieses Schreiben bitte als nichtig.\n"
-"    Sollte Ihre Zahlung innerhalb der nÃ¤chsten 5 Tage nicht eingehen, behalten wir uns rechtliche Schritte vor.\n"
+"    Unsere Buchhaltung zeigt an, dass wir, trotz zweier Erinnerungen, immer "
+"noch keinen Zahlungseingang zu oben genannter Rechnung erhalten haben (Kopie "
+"anhängig).\n"
+"    Sollte die Zahlung zwischenzeitlich erfolgt sein, betrachten Sie dieses "
+"Schreiben bitte als nichtig.\n"
+"    Sollte Ihre Zahlung innerhalb der nächsten 5 Tage nicht eingehen, "
+"behalten wir uns rechtliche Schritte vor.\n"
 "\n"
-"    WÃ¼nschen Sie eine Ratenzahlungsvereinbarung, teilen Sie uns dies bitte mit.\n"
-"    Ein KundenverfÃ¼gung ist zu Ihrer Erleichterung beigefÃ¼gt.\n"
+"    Wünschen Sie eine Ratenzahlungsvereinbarung, teilen Sie uns dies bitte "
+"mit.\n"
+"    Eine Kundenverfügung ist zu Ihrer Erleichterung beigefügt.\n"
 "\n"
-"    Vielen Dank fÃ¼r Ihre angestrebte Zusammenarbeit in dieser Sache.\n"
+"    Vielen Dank für Ihre angestrebte Zusammenarbeit in dieser Sache.\n"
 "\n"
-"    mit freundlichen GrÃ¼ÃŸen\n"
+"    mit freundlichen Grüßen\n"
+" "
 
 #. module: account_credit_control
 #: view:credit.control.marker:0
 #: model:ir.actions.act_window,name:account_credit_control.open_credit_line_marker_wizard
 #: model:ir.actions.act_window,name:account_credit_control.open_credit_line_marker_wizard_menu_action
 msgid "Change Lines' State"
-msgstr "Postenstatus Ã¤ndern"
+msgstr "Postenstatus ändern"
 
 #. module: account_credit_control
 #: field:credit.control.policy.level,policy_id:0
@@ -229,21 +253,25 @@ msgstr "Post und Berichte"
 #. module: account_credit_control
 #: model:credit.control.policy.level,custom_text:account_credit_control.3_time_2
 msgid ""
-"Our records indicate that we have not yet received the payment of the above mentioned invoice despite our first reminder.\n"
-"        If it has already been sent, please disregard this notice. If not, please proceed with payment within 5 days.\n"
+"Our records indicate that we have not yet received the payment of the above "
+"mentioned invoice despite our first reminder.\n"
+"        If it has already been sent, please disregard this notice. If not, "
+"please proceed with payment within 5 days.\n"
 "\n"
 "Thank you in advance for your anticipated cooperation in this matter.\n"
 "\n"
 "Best regards\n"
 "      "
 msgstr ""
-"Unsere Buchhaltung zeigt an, dass wir, trotz Erinnerung, immer noch keinen Zahlungseingang zu oben genannter Rechnung erhalten haben.\n"
-"    Sollte die Zahlung zwischenzeitlich erfolgt sein, betrachten Sie dieses Schreiben bitte als nichtig.\n"
-"    Weisen Sie ansonsten Ihre Zahlung innerhalb der nÃ¤chsten 5 Tage an.\n"
+"Unsere Buchhaltung zeigt an, dass wir, trotz Erinnerung, immer noch keinen "
+"Zahlungseingang zu oben genannter Rechnung erhalten haben.\n"
+"    Sollte die Zahlung zwischenzeitlich erfolgt sein, betrachten Sie dieses "
+"Schreiben bitte als nichtig.\n"
+"    Weisen Sie ansonsten Ihre Zahlung innerhalb der nächsten 5 Tage an.\n"
 "\n"
-"Vielen Dank fÃ¼r Ihre angestrebte Zusammenarbeit in dieser Sache.\n"
+"Vielen Dank für Ihre angestrebte Zusammenarbeit in dieser Sache.\n"
 "\n"
-"mit freundlichen GrÃ¼ÃŸen\n"
+"mit freundlichen Grüssen\n"
 "      "
 
 #. module: account_credit_control
@@ -271,21 +299,26 @@ msgstr "Druck"
 #. module: account_credit_control
 #: model:credit.control.policy.level,custom_text:account_credit_control.2_time_1
 msgid ""
-"Our records indicate that we have not received the payment of the above mentioned invoice.\n"
-"        If it has already been sent, please disregard this notice. If not, please proceed with payment within 10 days.\n"
+"Our records indicate that we have not received the payment of the above "
+"mentioned invoice.\n"
+"        If it has already been sent, please disregard this notice. If not, "
+"please proceed with payment within 10 days.\n"
 "\n"
-"        Thank you in advance for your anticipated cooperation in this matter.\n"
+"        Thank you in advance for your anticipated cooperation in this "
+"matter.\n"
 "\n"
 "        Best regards\n"
 "      "
 msgstr ""
-"Unsere Buchhaltung zeigt an, dass wir noch keinen Zahlungseingang zu oben genannter Rechnung erhalten haben.\n"
-"    Sollte die Zahlung zwischenzeitlich erfolgt sein, betrachten Sie dieses Schreiben bitte als nichtig.\n"
-"    Weisen Sie ansonsten Ihre Zahlung innerhalb der nÃ¤chsten 10 Tage an.\n"
+"Unsere Buchhaltung zeigt an, dass wir noch keinen Zahlungseingang zu oben "
+"genannter Rechnung erhalten haben.\n"
+"    Sollte die Zahlung zwischenzeitlich erfolgt sein, betrachten Sie dieses "
+"Schreiben bitte als nichtig.\n"
+"    Weisen Sie ansonsten Ihre Zahlung innerhalb der nächsten 10 Tage an.\n"
 "\n"
-"    Vielen Dank fÃ¼r Ihre angestrebte Zusammenarbeit in dieser Sache.\n"
+"    Vielen Dank für Ihre angestrebte Zusammenarbeit in dieser Sache.\n"
 "\n"
-"    mit freundlichen GrÃ¼ÃŸen\n"
+"    mit freundlichen Grüssen\n"
 "      "
 
 #. module: account_credit_control
@@ -303,30 +336,40 @@ msgstr "Weg"
 #. module: account_credit_control
 #: model:credit.control.policy.level,custom_text:account_credit_control.2_time_2
 msgid ""
-"Our records indicate that we still have not received the payment of the above mentioned invoice despite our reminder.\n"
+"Our records indicate that we still have not received the payment of the "
+"above mentioned invoice despite our reminder.\n"
 "\n"
-"        If payment have already been sent, please disregard this notice. If not, please proceed with payment.\n"
-"        If your payment has not been received in the next 5 days, your file will be transfered to our debt\n"
+"        If payment have already been sent, please disregard this notice. If "
+"not, please proceed with payment.\n"
+"        If your payment has not been received in the next 5 days, your file "
+"will be transfered to our debt\n"
 "        collection agency.\n"
 "\n"
-"        Should you need us to arrange a payment plan for you, please advise.\n"
+"        Should you need us to arrange a payment plan for you, please "
+"advise.\n"
 "        A customer account statement is enclosed for you convenience.\n"
 "\n"
-"        Thank you in advance for your anticipated cooperation in this matter.\n"
+"        Thank you in advance for your anticipated cooperation in this "
+"matter.\n"
 "\n"
 "        Best regards\n"
 "      "
 msgstr ""
-"Unsere Buchhaltung zeigt an, dass wir, trotz Erinnerung, immer noch keinen Zahlungseingang zu oben genannter Rechnung erhalten haben.\n"
-"    Sollte die Zahlung zwischenzeitlich erfolgt sein, betrachten Sie dieses Schreiben bitte als nichtig.\n"
-"    Sollte Ihre Zahlung innerhalb der nÃ¤chsten 5 Tage nicht eingehen, behalten wir uns rechtliche Schritte vor.\n"
+"Unsere Buchhaltung zeigt an, dass wir, trotz Erinnerung, immer noch keinen "
+"Zahlungseingang zu oben genannter Rechnung erhalten haben.\n"
+"    Sollte die Zahlung zwischenzeitlich erfolgt sein, betrachten Sie dieses "
+"Schreiben bitte als nichtig.\n"
+"    Sollte Ihre Zahlung innerhalb der nächsten 5 Tage nicht eingehen, "
+"behalten wir uns rechtliche Schritte vor.\n"
 "\n"
-"    WÃ¼nschen Sie eine Ratenzahlungsvereinbarung, teilen Sie uns dies bitte mit.\n"
-"    Ein KundenverfÃ¼gung ist zu Ihrer Erleichterung beigefÃ¼gt.\n"
+"    Wünschen Sie eine Ratenzahlungsvereinbarung, teilen Sie uns dies bitte "
+"mit.\n"
+"    Ein Kundenverfügung ist zu Ihrer Erleichterung beigefügt.\n"
 "\n"
-"    Vielen Dank fÃ¼r Ihre angestrebte Zusammenarbeit in dieser Sache.\n"
+"    Vielen Dank für Ihre angestrebte Zusammenarbeit in dieser Sache.\n"
 "\n"
-"    mit freundlichen GrÃ¼ÃŸen\n"
+"    mit freundlichen Grüßen\n"
+" "
 
 #. module: account_credit_control
 #: view:credit.control.marker:0
@@ -336,8 +379,13 @@ msgstr "Positionsmerker"
 #. module: account_credit_control
 #: code:addons/account_credit_control/invoice.py:35
 #, python-format
-msgid "You cannot cancel this invoice ! A payment reminder has already been sent to the customer.You must create a credit note and raise a new invoice."
-msgstr "Sie dÃ¼rfen diese Rechnung nicht stornieren! Eine Zahlungserinnerung wurde hierzu bereits zum Kunden versandt. Sie mÃ¼ssen einen Kreditvermerk vornehmen und eine neue Rechnung erheben."
+msgid ""
+"You cannot cancel this invoice ! A payment reminder has already been sent to "
+"the customer.You must create a credit note and raise a new invoice."
+msgstr ""
+"Sie dürfen diese Rechnung nicht stornieren! Eine Zahlungserinnerung wurde "
+"hierzu bereits zum Kunden versandt. Sie müssen einen Kreditvermerk vornehmen "
+"und eine neue Rechnung erheben."
 
 #. module: account_credit_control
 #: field:credit.control.printer,state:0
@@ -361,9 +409,10 @@ msgid ""
 "Ignored lines are lines for which we do not want to send something.\n"
 "Draft and ignored lines will be generated again on the next run."
 msgstr ""
-"Entwurfspositionen mÃ¼ssen vorselektiert werden.\n"
-"Bei ignorierten Positionen mÃ¶chten wir nicht versenden.\n"
-"EntwÃ¼rfe oder ignorierte Positionen werden beim nÃ¤chsten Lauf wieder erscheinen."
+"Entwurfspositionen müssen vorselektiert werden.\n"
+"Bei ignorierten Positionen möchten wir nicht versenden.\n"
+"Entwürfe oder ignorierte Positionen werden beim nächsten Lauf wieder "
+"erscheinen."
 
 #. module: account_credit_control
 #: model:credit.control.policy.level,name:account_credit_control.2_time_1
@@ -374,7 +423,7 @@ msgstr "30 Tage, zum Monatsende"
 #. module: account_credit_control
 #: selection:credit.control.policy.level,computation_mode:0
 msgid "Due Date, End Of Month"
-msgstr "FÃ¤lligkeitsdatum, Monatsende"
+msgstr "Fälligkeitsdatum, Monatsende"
 
 #. module: account_credit_control
 #: field:credit.control.marker,name:0
@@ -384,22 +433,26 @@ msgstr "Markiere als"
 #. module: account_credit_control
 #: model:credit.control.policy.level,custom_mail_text:account_credit_control.3_time_1
 msgid ""
-"Our records indicate that we have not received the payment of the above mentioned invoice (copy attached for your convenience).\n"
+"Our records indicate that we have not received the payment of the above "
+"mentioned invoice (copy attached for your convenience).\n"
 "\n"
-"If it has already been sent, please disregard this notice. If not, please proceed with payment within 10 days.\n"
+"If it has already been sent, please disregard this notice. If not, please "
+"proceed with payment within 10 days.\n"
 "\n"
 "Thank you in advance for your anticipated cooperation in this matter.\n"
 "\n"
 "Best regards\n"
 "      "
 msgstr ""
-"Unsere Buchhaltung zeigt an, dass wir noch keinen Zahlungseingang zu oben genannter Rechnung (Kopie beigefÃ¼gt) erhalten haben.\n"
-"    Sollte die Zahlung zwischenzeitlich erfolgt sein, betrachten Sie dieses Schreiben bitte als nichtig.\n"
-"    Weisen Sie ansonsten Ihre Zahlung innerhalb der nÃ¤chsten 10 Tage an.\n"
+"Unsere Buchhaltung zeigt an, dass wir noch keinen Zahlungseingang zu oben "
+"genannter Rechnung (Kopie beigefügt) erhalten haben.\n"
+"    Sollte die Zahlung zwischenzeitlich erfolgt sein, betrachten Sie dieses "
+"Schreiben bitte als nichtig.\n"
+"    Weisen Sie ansonsten Ihre Zahlung innerhalb der nächsten 10 Tage an.\n"
 "\n"
-"    Vielen Dank fÃ¼r Ihre angestrebte Zusammenarbeit in dieser Sache.\n"
+"    Vielen Dank für Ihre angestrebte Zusammenarbeit in dieser Sache.\n"
 "\n"
-"    mit freundlichen GrÃ¼ÃŸen\n"
+"    mit freundlichen Grüssen\n"
 "      "
 
 #. module: account_credit_control
@@ -415,26 +468,31 @@ msgstr "Mahnregeln"
 #. module: account_credit_control
 #: model:credit.control.policy.level,custom_mail_text:account_credit_control.2_time_1
 msgid ""
-"Our records indicate that we have not received the payment of the above mentioned invoice (copy attached for your convenience).\n"
-"If it has already been sent, please disregard this notice. If not, please proceed with payment within 10 days.\n"
+"Our records indicate that we have not received the payment of the above "
+"mentioned invoice (copy attached for your convenience).\n"
+"If it has already been sent, please disregard this notice. If not, please "
+"proceed with payment within 10 days.\n"
 "\n"
 "Thank you in advance for your anticipated cooperation in this matter.\n"
 "\n"
 "Best regards\n"
 "      "
 msgstr ""
-"Unsere Buchhaltung zeigt an, dass wir noch keinen Zahlungseingang zu oben genannter Rechnung (Kopie beigefÃ¼gt) erhalten haben.\n"
-"    Sollte die Zahlung zwischenzeitlich erfolgt sein, betrachten Sie dieses Schreiben bitte als nichtig.\n"
-"    Weisen Sie ansonsten Ihre Zahlung innerhalb der nÃ¤chsten 10 Tage an.\n"
+"Unsere Buchhaltung zeigt an, dass wir noch keinen Zahlungseingang zu oben "
+"genannter Rechnung (Kopie beigefügt) erhalten haben.\n"
+"    Sollte die Zahlung zwischenzeitlich erfolgt sein, betrachten Sie dieses "
+"Schreiben bitte als nichtig.\n"
+"    Weisen Sie ansonsten Ihre Zahlung innerhalb der nächsten 10 Tage an.\n"
 "\n"
-"    Vielen Dank fÃ¼r Ihre angestrebte Zusammenarbeit in dieser Sache.\n"
+"    Vielen Dank für Ihre angestrebte Zusammenarbeit in dieser Sache.\n"
 "\n"
-"    mit freundlichen GrÃ¼ÃŸen\n"
+"    mit freundlichen Grüßen\n"
+" "
 
 #. module: account_credit_control
 #: field:credit.control.line,date_due:0
 msgid "Due date"
-msgstr "FÃ¤lligkeitsdatum"
+msgstr "Fälligkeitsdatum"
 
 #. module: account_credit_control
 #: field:credit.control.policy,do_nothing:0
@@ -445,7 +503,7 @@ msgstr "Nichts unternehmen"
 #: field:credit.control.line,currency_id:0
 #: report:addons/account_credit_control/report/credit_control_summary.html.mako:183
 msgid "Currency"
-msgstr "WÃ¤hrung"
+msgstr "Währung"
 
 #. module: account_credit_control
 #: model:ir.model,name:account_credit_control.model_credit_control_printer
@@ -468,17 +526,17 @@ msgstr "Beim Versenden der Email trat ein Fehler auf."
 #: view:credit.control.marker:0
 #: model:ir.actions.act_window,help:account_credit_control.open_credit_line_marker_wizard
 msgid "Change the state of the selected lines."
-msgstr "Den Status der ausgewÃ¤hlten Posten anpassen."
+msgstr "Den Status der ausgewählten Posten anpassen."
 
 #. module: account_credit_control
 #: view:credit.control.line:0
 msgid "Lines which have been ignored from previous runs."
-msgstr "Positionen, die in vorigen LÃ¤ufen ignoriert wurden."
+msgstr "Positionen, die in vorigen Läufen ignoriert wurden."
 
 #. module: account_credit_control
 #: view:credit.control.printer:0
 msgid "Print the selected lines"
-msgstr "Druck der ausgewÃ¤hlten Positionen"
+msgstr "Druck der ausgewählten Positionen"
 
 #. module: account_credit_control
 #: view:credit.control.line:0 selection:credit.control.line,state:0
@@ -489,7 +547,7 @@ msgstr "Entwurf"
 #. module: account_credit_control
 #: view:credit.control.marker:0
 msgid "Warning: you will maybe not be able to revert this operation."
-msgstr "Warnung: Sie kÃ¶nnen diese MaÃŸnahme ggf. nicht rÃ¼ckgÃ¤ngig machen."
+msgstr "Warnung: Sie können diese Maßnahme ggf. nicht rückgängig machen."
 
 #. module: account_credit_control
 #: view:credit.control.line:0
@@ -504,7 +562,7 @@ msgstr "Verzugeinstellung"
 #. module: account_credit_control
 #: field:credit.control.line,balance_due:0
 msgid "Due balance"
-msgstr "FÃ¤lliges Saldo"
+msgstr "Fälliger Saldo"
 
 #. module: account_credit_control
 #: view:credit.control.line:0
@@ -535,12 +593,12 @@ msgstr "Brief"
 #. module: account_credit_control
 #: model:ir.model,name:account_credit_control.model_account_move_line
 msgid "Journal Items"
-msgstr "JournaleintrÃ¤ge"
+msgstr "Journaleinträge"
 
 #. module: account_credit_control
 #: model:ir.actions.act_window,help:account_credit_control.open_credit_line_printer_wizard
 msgid "Print selected lines"
-msgstr "Druck ausgewÃ¤hlter Posten"
+msgstr "Druck ausgewählter Posten"
 
 #. module: account_credit_control
 #: field:credit.control.emailer,line_ids:0
@@ -582,7 +640,7 @@ msgstr "Emailvorlage"
 #: view:credit.control.line:0 selection:credit.control.line,state:0
 #: selection:credit.control.marker,name:0
 msgid "Ready To Send"
-msgstr "Bereit fÃ¼r Versandt"
+msgstr "Bereit für Versandt"
 
 #. module: account_credit_control
 #: model:ir.model,name:account_credit_control.model_res_company
@@ -632,35 +690,48 @@ msgstr "Individuelle Nachricht"
 #. module: account_credit_control
 #: model:credit.control.policy.level,custom_mail_text:account_credit_control.2_time_2
 msgid ""
-"Our records indicate that we still have not received the payment of the above mentioned invoice (copy attached) despite our reminder.\n"
+"Our records indicate that we still have not received the payment of the "
+"above mentioned invoice (copy attached) despite our reminder.\n"
 "\n"
-"If payment have already been sent, please disregard this notice. If not, please proceed with payment.\n"
-"If your payment has not been received in the next 5 days, your file will be transfered to our debt\n"
+"If payment have already been sent, please disregard this notice. If not, "
+"please proceed with payment.\n"
+"If your payment has not been received in the next 5 days, your file will be "
+"transfered to our debt\n"
 "        collection agency.\n"
 "\n"
-"        Should you need us to arrange a payment plan for you, please advise.\n"
+"        Should you need us to arrange a payment plan for you, please "
+"advise.\n"
 "        A customer account statement is enclosed for you convenience.\n"
 "\n"
-"        Thank you in advance for your anticipated cooperation in this matter.\n"
+"        Thank you in advance for your anticipated cooperation in this "
+"matter.\n"
 "\n"
 "        Best regards\n"
 "      "
 msgstr ""
-"Unsere Buchhaltung zeigt an, dass wir, trotz Erinnerung, immer noch keinen Zahlungseingang zu oben genannter Rechnung (Kopie anbei) erhalten haben.\n"
-"Sollte die Zahlung zwischenzeitlich erfolgt sein, betrachten Sie dieses Schreiben bitte als nichtig.\n"
-"Sollte Ihre Zahlung innerhalb der nÃ¤chsten 5 Tage nicht eingehen, behalten wir uns rechtliche Schritte vor.\n"
+"Unsere Buchhaltung zeigt an, dass wir, trotz Erinnerung, immer noch keinen "
+"Zahlungseingang zu oben genannter Rechnung (Kopie anbei) erhalten haben.\n"
+"Sollte die Zahlung zwischenzeitlich erfolgt sein, betrachten Sie dieses "
+"Schreiben bitte als nichtig.\n"
+"Sollte Ihre Zahlung innerhalb der nächsten 5 Tage nicht eingehen, behalten "
+"wir uns rechtliche Schritte vor.\n"
 "\n"
-"WÃ¼nschen Sie eine Ratenzahlungsvereinbarung, teilen Sie uns dies bitte mit.\n"
-"Ein KundenverfÃ¼gung ist zu Ihrer Erleichterung beigefÃ¼gt.\n"
+"Wünschen Sie eine Ratenzahlungsvereinbarung, teilen Sie uns dies bitte mit.\n"
+"Ein Kundenverfügung ist zu Ihrer Erleichterung beigefügt.\n"
 "\n"
-"Vielen Dank fÃ¼r Ihre angestrebte Zusammenarbeit in dieser Sache.\n"
+"Vielen Dank für Ihre angestrebte Zusammenarbeit in dieser Sache.\n"
 "\n"
-"mit freundlichen GrÃ¼ÃŸen\n"
+"mit freundlichen Grüßen\n"
+" "
 
 #. module: account_credit_control
 #: help:credit.control.run,manual_ids:0
-msgid "If a credit control line has been generatedon a policy and the policy has been changed in the meantime, it has to be handled manually"
-msgstr "Wenn ein Mahnposten angelegt wurde und die Mahnregel wurde zwischenzeitlich verÃ¤ndert, muss diese manuell weiter bearbeitet werden"
+msgid ""
+"If a credit control line has been generatedon a policy and the policy has "
+"been changed in the meantime, it has to be handled manually"
+msgstr ""
+"Wenn ein Mahnposten angelegt wurde und die Mahnregel wurde zwischenzeitlich "
+"verändert, muss diese manuell weiter bearbeitet werden"
 
 #. module: account_credit_control
 #: field:account.account,credit_control_line_ids:0
@@ -693,7 +764,7 @@ msgstr "Abbruch"
 #. module: account_credit_control
 #: view:credit.control.printer:0
 msgid "Close"
-msgstr "SchlieÃŸen"
+msgstr "Schliessen"
 
 #. module: account_credit_control
 #: selection:credit.control.line,state:0
@@ -702,8 +773,12 @@ msgstr "Fehler bei Email-Versand"
 
 #. module: account_credit_control
 #: help:account.invoice,credit_policy_id:0
-msgid "The Credit Control Policy used for this invoice. If nothing is defined, it will use the account setting or the partner setting."
-msgstr "Die Mahnregel, die fÃ¼r diese Rechnung angewendet wird. Ohne Eintrag, wird die Konteneinstellung des Kunden herangezogen."
+msgid ""
+"The Credit Control Policy used for this invoice. If nothing is defined, it "
+"will use the account setting or the partner setting."
+msgstr ""
+"Die Mahnregel, die für diese Rechnung angewendet wird. Ohne Eintrag, wird "
+"die Konteneinstellung des Kunden herangezogen."
 
 #. module: account_credit_control
 #: view:credit.control.line:0
@@ -727,8 +802,13 @@ msgstr "Posten zur manuellen Bearbeitung"
 
 #. module: account_credit_control
 #: help:res.partner,credit_policy_id:0
-msgid "The Credit Control Policy used for this partner. This setting can be forced on the invoice. If nothing is defined, it will use the company setting."
-msgstr "Die Mahnregel, die bei diesem Partner angewandt werden soll. Diese Einstellung kann je Rechnung Ã¼berschrieben werden. Ohne Eintrag werden Unternehmensweite Einstellungen herangezogen."
+msgid ""
+"The Credit Control Policy used for this partner. This setting can be forced "
+"on the invoice. If nothing is defined, it will use the company setting."
+msgstr ""
+"Die Mahnregel, die bei diesem Partner angewandt werden soll. Diese "
+"Einstellung kann je Rechnung überschrieben werden. Ohne Eintrag werden "
+"Unternehmensweite Einstellungen herangezogen."
 
 #. module: account_credit_control
 #: view:account.invoice:0
@@ -740,20 +820,27 @@ msgstr "Mahnwesen"
 #. module: account_credit_control
 #: model:credit.control.policy.level,custom_mail_text:account_credit_control.3_time_2
 msgid ""
-"Our records indicate that we have not yet received the payment of the above mentioned invoice (copy attached for your convenience) despite our first reminder.\n"
-"        If it has already been sent, please disregard this notice. If not, please proceed with payment within 5 days.\n"
+"Our records indicate that we have not yet received the payment of the above "
+"mentioned invoice (copy attached for your convenience) despite our first "
+"reminder.\n"
+"        If it has already been sent, please disregard this notice. If not, "
+"please proceed with payment within 5 days.\n"
 "\n"
 "Thank you in advance for your anticipated cooperation in this matter.\n"
 "\n"
 "Best regards\n"
 "      "
 msgstr ""
-"Unsere Buchhaltung zeigt an, dass wir, trotz Erinnerung, immer noch keinen Zahlungseingang zu oben genannter Rechnung erhalten haben.\n"
-"    Sollte die Zahlung zwischenzeitlich erfolgt sein, betrachten Sie dieses Schreiben bitte als nichtig. Nehmen Sie Ihre Zahlung bitte innerhalb der nÃ¤chsten 5 Tage vor.\n"
+"Unsere Buchhaltung zeigt an, dass wir, trotz Erinnerung, immer noch keinen "
+"Zahlungseingang zu oben genannter Rechnung erhalten haben.\n"
+"    Sollte die Zahlung zwischenzeitlich erfolgt sein, betrachten Sie dieses "
+"Schreiben bitte als nichtig. Nehmen Sie Ihre Zahlung bitte innerhalb der "
+"nächsten 5 Tage vor.\n"
 "\n"
-"Vielen Dank fÃ¼r Ihre angestrebte Zusammenarbeit in dieser Sache.\n"
+"Vielen Dank für Ihre angestrebte Zusammenarbeit in dieser Sache.\n"
 "\n"
-"mit freundlichen GrÃ¼ÃŸen\n"
+"mit freundlichen Grüßen\n"
+" "
 
 #. module: account_credit_control
 #: field:credit.control.line,policy_id:0
@@ -773,25 +860,31 @@ msgstr "Mailer"
 #. module: account_credit_control
 #: model:credit.control.policy.level,custom_text:account_credit_control.3_time_1
 msgid ""
-"Our records indicate that we have not received the payment of the above mentioned invoice.\n"
-"If it has already been sent, please disregard this notice. If not, please proceed with payment within 10 days.\n"
+"Our records indicate that we have not received the payment of the above "
+"mentioned invoice.\n"
+"If it has already been sent, please disregard this notice. If not, please "
+"proceed with payment within 10 days.\n"
 "\n"
 "Thank you in advance for your anticipated cooperation in this matter.\n"
 "\n"
 "Best regards\n"
 "      "
 msgstr ""
-"Unsere Buchhaltung zeigt an, dass wir noch keinen Zahlungseingang zu oben genannter Rechnung erhalten haben.\n"
-"    Sollte die Zahlung zwischenzeitlich erfolgt sein, betrachten Sie dieses Schreiben bitte als nichtig. Nehmen Sie Ihre Zahlung bitte innerhalb der nÃ¤chsten 5 Tage vor.\n"
+"Unsere Buchhaltung zeigt an, dass wir noch keinen Zahlungseingang zu oben "
+"genannter Rechnung erhalten haben.\n"
+"    Sollte die Zahlung zwischenzeitlich erfolgt sein, betrachten Sie dieses "
+"Schreiben bitte als nichtig. Nehmen Sie Ihre Zahlung bitte innerhalb der "
+"nächsten 5 Tage vor.\n"
 "\n"
-"Vielen Dank fÃ¼r Ihre angestrebte Zusammenarbeit in dieser Sache.\n"
+"Vielen Dank für Ihre angestrebte Zusammenarbeit in dieser Sache.\n"
 "\n"
-"mit freundlichen GrÃ¼ÃŸen\n"
+"mit freundlichen Grüßen\n"
+" "
 
 #. module: account_credit_control
 #: view:credit.control.run:0
 msgid "Move lines To be treated manually"
-msgstr "Buchungen, die manuell bearbeitet werden mÃ¼ssen"
+msgstr "Buchungen, die manuell bearbeitet werden müssen"
 
 #. module: account_credit_control
 #: model:ir.actions.act_window,name:account_credit_control.credit_policy_configuration_action
@@ -802,7 +895,7 @@ msgstr "Mahnregeln"
 #. module: account_credit_control
 #: model:ir.actions.act_window,help:account_credit_control.open_credit_line_emailer_wizard
 msgid "Send an email for the selected lines."
-msgstr "Sende eine Email zu ausgewÃ¤hlten Posten."
+msgstr "Sende eine Email zu ausgewählten Posten."
 
 #. module: account_credit_control
 #: model:credit.control.policy.level,name:account_credit_control.3_time_3
@@ -877,17 +970,17 @@ msgstr "Mahn-Zusammenfassung"
 #. module: account_credit_control
 #: field:credit.control.line,date:0
 msgid "Controlling date"
-msgstr "Mahn-PrÃ¼fdatum"
+msgstr "Mahn-Prüfdatum"
 
 #. module: account_credit_control
 #: view:credit.control.line:0
 msgid "Draft lines have to be triaged."
-msgstr "Entwurfsposten mÃ¼ssen gesichtet werden."
+msgstr "Entwurfsposten müssen gesichtet werden."
 
 #. module: account_credit_control
 #: field:credit.control.line,amount_due:0
 msgid "Due Amount Tax incl."
-msgstr "FÃ¤lliger Bruttobetrag"
+msgstr "Fälliger Bruttobetrag"
 
 #. module: account_credit_control
 #: field:res.company,credit_control_tolerance:0
@@ -906,13 +999,17 @@ msgstr "60 Tage, letzte Erinnerung"
 
 #. module: account_credit_control
 #: help:res.company,credit_policy_id:0
-msgid "The Credit Control Policy used on partners by default. This setting can be overridden on partners or invoices."
-msgstr "Die bei Partnern verwendete Standard-Mahnregel. Diese Einstellung kann je Partner oder Rechnung Ã¼berschrieben werden."
+msgid ""
+"The Credit Control Policy used on partners by default. This setting can be "
+"overridden on partners or invoices."
+msgstr ""
+"Die bei Partnern verwendete Standard-Mahnregel. Diese Einstellung kann je "
+"Partner oder Rechnung überschrieben werden."
 
 #. module: account_credit_control
 #: field:credit.control.line,policy_level_id:0
 msgid "Overdue Level"
-msgstr "FÃ¤lligkeitsstufe"
+msgstr "Fälligkeitsstufe"
 
 #. module: account_credit_control
 #: report:addons/account_credit_control/report/credit_control_summary.html.mako:167
@@ -942,7 +1039,7 @@ msgstr "Rechnungsdatum"
 #. module: account_credit_control
 #: report:addons/account_credit_control/report/credit_control_summary.html.mako:181
 msgid "Date due"
-msgstr "FÃ¤lligkeitsdatum"
+msgstr "Fälligkeitsdatum"
 
 #. module: account_credit_control
 #: report:addons/account_credit_control/report/credit_control_summary.html.mako:182
@@ -957,5 +1054,4 @@ msgstr "Offener Betrag"
 #. module: account_credit_control
 #: report:addons/account_credit_control/report/credit_control_summary.html.mako:211
 msgid "If you have any question, do not hesitate to contact us."
-msgstr "Bei aufkommenden Fragen, bitte zÃ¶gern Sie nicht uns zu konsultieren."
-
+msgstr "Bei aufkommenden Fragen, bitte zögern Sie nicht uns zu konsultieren."
