@@ -1,0 +1,95 @@
+# Translation of OpenERP Server.
+# This file contains the translation of the following modules:
+# 	* account_fiscal_position_vat_check
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 8.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-09-13 16:44+0200\n"
+"PO-Revision-Date: 2015-09-13 16:53+0200\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 1.8.3\n"
+"Last-Translator: Rudolf Schnapka <rs@techno-flex.de>\n"
+"Language: de\n"
+
+#. module: account_fiscal_position_vat_check
+#: view:res.partner:0
+msgid "fiscal_position_change(property_account_position, vat)"
+msgstr ""
+
+#. module: account_fiscal_position_vat_check
+#: code:addons/account_fiscal_position_vat_check/account_invoice.py:54
+#, python-format
+msgid ""
+"You are trying to validate %s with the fiscal position '%s' that require the "
+"customer to have a VAT number. But the Customer '%s' doesn't have a VAT "
+"number in OpenERP. Please add the VAT number of this Customer in OpenERP and "
+"try to validate again."
+msgstr ""
+"Sie versuchen %s mit der Steuerzuordnung '%s' freizugeben. Dies erfordert "
+"jedoch, dass der Kunde eine USt-ID hat. Diesem Kunden '%s' wurde jedoch "
+"keine USt-ID eingetragen. Ergänzen Sie bitte die USt-ID und versuchen es "
+"dann nochmal."
+
+#. module: account_fiscal_position_vat_check
+#: code:addons/account_fiscal_position_vat_check/account_invoice.py:51
+#, python-format
+msgid "a Customer Refund"
+msgstr "Kundengutschrift"
+
+#. module: account_fiscal_position_vat_check
+#: field:account.fiscal.position,customer_must_have_vat:0
+msgid "Customer Must Have VAT number"
+msgstr "Der Kunde muss eine USt-ID haben"
+
+#. module: account_fiscal_position_vat_check
+#: help:account.fiscal.position,customer_must_have_vat:0
+msgid ""
+"If enabled, OpenERP will check that the customer has a VAT number when the "
+"user validates a customer invoice/refund."
+msgstr ""
+"Wenn aktiviert, wird ODOO prüfen, dass der Kunde eine USt-ID hat, wenn der "
+"Anwender eine Kundenrechnung/-gutschrift prüft bzw. freigibt."
+
+#. module: account_fiscal_position_vat_check
+#: model:ir.model,name:account_fiscal_position_vat_check.model_account_fiscal_position
+msgid "Fiscal Position"
+msgstr "Steuerzuordnung"
+
+#. module: account_fiscal_position_vat_check
+#: model:ir.model,name:account_fiscal_position_vat_check.model_account_invoice
+msgid "Invoice"
+msgstr "Rechnung"
+
+#. module: account_fiscal_position_vat_check
+#: model:ir.model,name:account_fiscal_position_vat_check.model_res_partner
+msgid "Partner"
+msgstr "Partner"
+
+#. module: account_fiscal_position_vat_check
+#: code:addons/account_fiscal_position_vat_check/account_invoice.py:49
+#, python-format
+msgid "a Customer Invoice"
+msgstr "eine Ausgangsrechnung"
+
+#. module: account_fiscal_position_vat_check
+#: code:addons/account_fiscal_position_vat_check/account_invoice.py:53
+#: code:addons/account_fiscal_position_vat_check/partner.py:38
+#, python-format
+msgid "Missing VAT number:"
+msgstr "Fehlende USt-ID"
+
+#. module: account_fiscal_position_vat_check
+#: code:addons/account_fiscal_position_vat_check/partner.py:39
+#, python-format
+msgid ""
+"You have set the fiscal position '%s' that require the customer to have a "
+"VAT number. You should add the VAT number of this customer in OpenERP."
+msgstr ""
+"Sie haben die Steuerzuordnung '%s' gewählt, die erfordert, dass ein Kunde "
+"eine USt-ID hat. Sie müssen die USt-ID dieses Kunden in ODOO nachpflegen."

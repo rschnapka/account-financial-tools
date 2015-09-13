@@ -1,0 +1,263 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* currency_rate_update
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 8.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-09-13 17:06+0200\n"
+"PO-Revision-Date: 2015-09-13 17:14+0200\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 1.8.3\n"
+"Last-Translator: Rudolf Schnapka <rs@techno-flex.de>\n"
+"Language: de\n"
+
+#. module: currency_rate_update
+#: selection:currency.rate.update.service,service:0
+msgid "Admin.ch"
+msgstr "Admin.ch"
+
+#. module: currency_rate_update
+#: field:res.company,auto_currency_up:0
+msgid "Automatic Update"
+msgstr "Automatische Aktualisierung"
+
+#. module: currency_rate_update
+#: help:res.company,auto_currency_up:0
+#, fuzzy
+msgid "Automatical update of the currencies for this company"
+msgstr "Automatische Aktualisierung der Währungen dieses Unternehmens"
+
+#. module: currency_rate_update
+#: selection:currency.rate.update.service,service:0
+msgid "Bank of Canada - noon rates"
+msgstr ""
+
+#. module: currency_rate_update
+#: selection:currency.rate.update.service,service:0
+msgid "Bank of Mexico"
+msgstr "Bank of Mexico"
+
+#. module: currency_rate_update
+#: code:addons/currency_rate_update/model/currency_rate_update.py:241
+#, python-format
+msgid "Base currency rate should be 1.00!"
+msgstr ""
+
+#. module: currency_rate_update
+#: model:ir.model,name:currency_rate_update.model_res_company
+msgid "Companies"
+msgstr "Unternehmen"
+
+#. module: currency_rate_update
+#: field:currency.rate.update.service,create_uid:0
+msgid "Created by"
+msgstr "Erstellt von"
+
+#. module: currency_rate_update
+#: field:currency.rate.update.service,create_date:0
+msgid "Created on"
+msgstr "Angelegt am"
+
+#. module: currency_rate_update
+#: field:currency.rate.update.service,currency_list:0
+msgid "Currencies available"
+msgstr ""
+
+#. module: currency_rate_update
+#: view:currency.rate.update.service:currency_rate_update.currency_rate_update_form
+#: field:currency.rate.update.service,currency_to_update:0
+msgid "Currencies to update with this service"
+msgstr "Währungen, die mit diesem Dienst aktualisiert werden sollen"
+
+#. module: currency_rate_update
+#: model:ir.model,name:currency_rate_update.model_currency_rate_update_service
+msgid "Currency Rate Update"
+msgstr "Währungskursaktualisierung"
+
+#. module: currency_rate_update
+#: view:res.company:currency_rate_update.currency_auto_comp
+#, fuzzy
+msgid "Currency update configuration"
+msgstr "Einstellung für Automatische Währungsaktualisierung"
+
+#. module: currency_rate_update
+#: field:currency.rate.update.service,interval_type:0
+#, fuzzy
+msgid "Currency update frequency"
+msgstr "Aktualisierungsfrequenz für Währungskurse"
+
+#. module: currency_rate_update
+#: view:currency.rate.update.service:currency_rate_update.currency_rate_update_form
+#: view:currency.rate.update.service:currency_rate_update.currency_rate_update_tree
+#: view:res.company:currency_rate_update.currency_auto_comp
+#: field:res.company,services_to_use:0
+msgid "Currency update services"
+msgstr "Währungsaktualisierungsdienst"
+
+#. module: currency_rate_update
+#: selection:currency.rate.update.service,interval_type:0
+msgid "Day(s)"
+msgstr "Tag(e)"
+
+#. module: currency_rate_update
+#: code:addons/currency_rate_update/services/update_service_CA_BOC.py:73
+#: code:addons/currency_rate_update/services/update_service_CA_BOC.py:94
+#, python-format
+msgid "Error !"
+msgstr "Errore !"
+
+#. module: currency_rate_update
+#: selection:currency.rate.update.service,service:0
+msgid "European Central Bank"
+msgstr "Europäische Zentralbank"
+
+#. module: currency_rate_update
+#: code:addons/currency_rate_update/services/update_service_CA_BOC.py:75
+#, python-format
+msgid "Exchange data for %s is not reported by Bank of Canada."
+msgstr "Kurse für %s werden durch die Bank of Canada nicht gemeldet."
+
+#. module: currency_rate_update
+#: code:addons/currency_rate_update/services/update_service_CA_BOC.py:96
+#, python-format
+msgid "Exchange data format error for Bank of Canada - %s !"
+msgstr "Wechselkurs-Datenformatfehler bei Bank of Canada - %s!"
+
+#. module: currency_rate_update
+#: field:currency.rate.update.service,interval_number:0
+msgid "Frequency"
+msgstr "Frequenz"
+
+#. module: currency_rate_update
+#: field:currency.rate.update.service,id:0
+#, fuzzy
+msgid "ID"
+msgstr "Id"
+
+#. module: currency_rate_update
+#: help:currency.rate.update.service,max_delta_days:0
+msgid ""
+"If the time delta between the rate date given by the webservice and the "
+"current date exceeds this value, then the currency rate is not updated in "
+"OpenERP."
+msgstr ""
+"Wenn die Zeitdifferenz zwischen dem Kursdatum des Webdienstes und dem "
+"aktuellen Datum diesen Wert überschreitet, dann wird der Umrechnungskurs in "
+"ODOO nicht angepasst."
+
+#. module: currency_rate_update
+#: code:addons/currency_rate_update/model/currency_rate_update.py:123
+#, python-format
+msgid "Interval number must be >= 0"
+msgstr "'Intervall' muss größer oder gleich 0 sein"
+
+#. module: currency_rate_update
+#: field:currency.rate.update.service,write_uid:0
+msgid "Last Updated by"
+msgstr "Zuletzt aktualisiert durch"
+
+#. module: currency_rate_update
+#: field:currency.rate.update.service,write_date:0
+msgid "Last Updated on"
+msgstr "Zuletzt aktualisiert am"
+
+#. module: currency_rate_update
+#: field:currency.rate.update.service,company_id:0
+#, fuzzy
+msgid "Linked Company"
+msgstr "Verbundenes Unternehmen"
+
+#. module: currency_rate_update
+#: view:currency.rate.update.service:currency_rate_update.currency_rate_update_form
+msgid "Logs"
+msgstr "Protokolle"
+
+#. module: currency_rate_update
+#: field:currency.rate.update.service,max_delta_days:0
+msgid "Max delta days"
+msgstr "Höchsttagesabweichung"
+
+#. module: currency_rate_update
+#: code:addons/currency_rate_update/model/currency_rate_update.py:117
+#, fuzzy, python-format
+msgid "Max delta days must be >= 0"
+msgstr "'Höchsttagesabweichung' muss größer oder gleich 0 sein"
+
+#. module: currency_rate_update
+#: selection:currency.rate.update.service,interval_type:0
+msgid "Month(s)"
+msgstr "Monat(e)"
+
+#. module: currency_rate_update
+#: field:res.company,multi_company_currency_enable:0
+msgid "Multi company currency"
+msgstr "Multi-Unternehmen-Währung"
+
+#. module: currency_rate_update
+#: selection:currency.rate.update.service,service:0
+msgid "National Bank of Poland"
+msgstr "National Bank of Poland"
+
+#. module: currency_rate_update
+#: selection:currency.rate.update.service,service:0
+msgid "National Bank of Romania"
+msgstr "National Bank of Romania"
+
+#. module: currency_rate_update
+#: field:currency.rate.update.service,next_run:0
+msgid "Next run on"
+msgstr "Nächster Lauf am"
+
+#. module: currency_rate_update
+#: view:res.company:currency_rate_update.currency_auto_comp
+msgid "Refresh currencies"
+msgstr "Währungen aktualisieren"
+
+#. module: currency_rate_update
+#: code:addons/currency_rate_update/model/currency_rate_update.py:239
+#, python-format
+msgid "There is no base currency set!"
+msgstr "Es ist keine Basiswährung eingestellt!"
+
+#. module: currency_rate_update
+#: field:currency.rate.update.service,note:0
+msgid "Update logs"
+msgstr "Protokolle aktualisieren"
+
+#. module: currency_rate_update
+#: field:currency.rate.update.service,service:0
+msgid "Webservice to use"
+msgstr "Zu nutzender Webdienst"
+
+#. module: currency_rate_update
+#: selection:currency.rate.update.service,interval_type:0
+msgid "Week(s)"
+msgstr "Woche(n)"
+
+#. module: currency_rate_update
+#: help:res.company,multi_company_currency_enable:0
+msgid ""
+"When this option is unchecked it will allow users to set a distinct currency "
+"updates on each company."
+msgstr ""
+"Wenn diese Option nicht angewählt ist, ermöglicht dies Benutzern "
+"eigenständige Währungsupdates je Unternehmen einzustellen."
+
+#. module: currency_rate_update
+#: selection:currency.rate.update.service,service:0
+#, fuzzy
+msgid "Yahoo Finance"
+msgstr "Yahoo Finance "
+
+#. module: currency_rate_update
+#: code:addons/currency_rate_update/model/currency_rate_update.py:216
+#: sql_constraint:currency.rate.update.service:0
+#, fuzzy, python-format
+msgid "You can use a service only one time per company !"
+msgstr "Sie dürfen diesen Dienst nur einmal je Unternehmen einsetzen!"
